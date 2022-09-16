@@ -1,5 +1,5 @@
 
-fetch('../js/stock.json')
+fetch('js/stock.json')
     .then((resp) => resp.json())
     .then((elm) => {
         productos = elm
