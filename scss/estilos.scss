@@ -1,0 +1,81 @@
+@import "layout/estilo-footer-general";
+@import "layout/estilo-header-general";
+@import "layout/estilo-main";
+
+
+
+
+
+
+/* RESET */
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+  html,
+  body,
+  div,
+  section,
+  figure,
+  p,
+  a,
+  img,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+
+
+.div-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  padding: 0px 0px 700px 0px;
+  object-fit: none;
+  z-index: -1;
+  background-image: url('../img/utilities/fondo.png');
+  -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
+  mask-image: linear-gradient(black, transparent);
+}
+
+.estilo-titulo-index-h1{
+  margin-top: -40rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+.estilo-p-index{
+  margin-bottom: 9rem;
+  font-size: 2rem;
+}
+.color-info-main{
+  margin-bottom: 10rem;
+}
+.estilo-titulo-index{
+  margin-bottom: 3rem;
+}
+#carouselExampleControls{
+  margin-bottom: 5rem;
+}
+
+h1{
+  text-align: center;
+}

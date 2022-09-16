@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tapete decorativo de pared",
+        "precio": 1200,
+        "stock": 10,
+        "img": "../img/productos/01.png",
+        "cant": 0
+    },
+    {
+        "id": 2,
+        "nombre": "Cesta",
+        "precio": 5000,
+        "stock": 4,
+        "img": "../img/productos/02.png",
+        "cant": 0
+    },
+    {
+        "id": 3,
+        "nombre": "Cuadro de madera palmera",
+        "precio": 2000,
+        "stock": 11,
+        "img": "../img/productos/03.jpg",
+        "cant": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Espejo redondo",
+        "precio": 4500,
+        "stock": 20,
+        "img": "../img/productos/04.jpg",
+        "cant": 0
+    },
+    {
+        "id": 5,
+        "nombre": "Envases de vidrio",
+        "precio": 9000,
+        "stock": 13,
+        "img": "../img/productos/05.png",
+        "cant": 0
+    },
+    {
+        "id": 6,
+        "nombre": "Plato hondo",
+        "precio": 10000,
+        "stock": 12,
+        "img": "../img/productos/06.png",
+        "cant": 0
+    },
+    {
+        "id": 7,
+        "nombre": "Espejo Sol",
+        "precio": 1500,
+        "stock": 5,
+        "img": "../img/productos/07.png",
+        "cant": 0
+    },
+    {
+        "id": 8,
+        "nombre": "florero",
+        "precio": 2000,
+        "stock": 20,
+        "img": "../img/productos/08.png",
+        "cant": 0
+    },
+    {
+        "id": 9,
+        "nombre": "Termo blanco",
+        "precio": 1900,
+        "stock": 15,
+        "img": "../img/productos/09.jpg",
+        "cant": 0
+    },
+    {
+        "id": 10,
+        "nombre": "Taza de vidrio",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/10.jpg",
+        "cant": 0
+    },
+    {
+        "id": 11,
+        "nombre": "Taza de te de ceramica",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/11.jpg",
+        "cant": 0
+    },
+    {
+        "id": 12,
+        "nombre": "Porta tazas",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/12.jpg",
+        "cant": 0
+    },
+    {
+        "id": 13,
+        "nombre": "Set de cubiertos de madera",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/13.jpg",
+        "cant": 0
+    },
+    {
+        "id": 14,
+        "nombre": "Reloj de pared",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/14.png",
+        "cant": 0
+    },
+    {
+        "id": 15,
+        "nombre": "Florero blanco ondas",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/15.png",
+        "cant": 0
+    },
+    {
+        "id": 16,
+        "nombre": "Sillon de madera",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/16.png",
+        "cant": 0
+    },
+    {
+        "id": 17,
+        "nombre": "Lampara de madera",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/17.png",
+        "cant": 0
+    },
+    {
+        "id": 18,
+        "nombre": "Maceta blanca con soporte",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/18.png",
+        "cant": 0
+    },
+    {
+        "id": 19,
+        "nombre": "mesa ratona",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/19.png",
+        "cant": 0
+    }
+    ,
+    {
+        "id": 20,
+        "nombre": "Lampara de metal negra",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/20.png",
+        "cant": 0
+    },
+    {
+        "id": 21,
+        "nombre": "Mesa de noche",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/21.png",
+        "cant": 0
+    },
+    {
+        "id": 22,
+        "nombre": "Mesa ratona blanca de madera",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/22.png",
+        "cant": 0
+    },
+    {
+        "id": 23,
+        "nombre": "set de 2 floreros",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/23.png",
+        "cant": 0
+    },
+    {
+        "id": 24,
+        "nombre": "set de 3 Almohadas",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/24.png",
+        "cant": 0
+    },
+    {
+        "id": 25,
+        "nombre": "Lampara de ceramica",
+        "precio": 5000,
+        "stock": 10,
+        "img": "../img/productos/25.png",
+        "cant": 0
+    }
+]

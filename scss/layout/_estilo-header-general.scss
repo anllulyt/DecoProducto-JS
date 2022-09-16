@@ -1,0 +1,71 @@
+@import "utilities/variable.scss";
+@import "utilities/procesadores.scss";
+
+// propiedades del header  
+.menu-header {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 5px 0 #000000;
+
+  .navbar-div-row {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    .navbar {
+      padding: 0;
+      margin: 0;
+      background-color: white;
+
+      .navfluid {
+        #navbarSupportedContent {
+          .ulnav {
+            .nav-item {
+              padding: 5px;
+              text-decoration: none;  
+              text-align: center;
+              background-position-x: top;
+              .nav-link {
+                background-color: white;
+                color: black;
+              }
+            }
+            .nav-link:hover {
+              background-position-x: center;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-index {
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .estilo-imagen-producto {
+    width: 18rem;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .img-info {
+    width: 6rem;
+  }
+
+}

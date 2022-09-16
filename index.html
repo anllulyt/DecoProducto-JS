@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Este es una tienda on-line donde encontrara todos lo relacionado a decoración para su hogar ">
+    <meta name="keywords" content="PRODUCTOS, DESING, DECORACION,HOGAR,ADORNOS,REGALO, PRODUCTOS DECO">
+
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- link de mi css -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- linkSweetAlert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- link shortcut  -->
+    <link rel="shortcut icon" href="img/logo/shortcut.jpg">
+
+    <title> Deco Productos</title>
+</head>
+
+<body>
+    <!-- Comienza el Header  donde se encuentra el menu y logo-->
+    <header class="container-fluid color-header  position-sticky top-0 menu-header">
+        <div class="row justify-content-between navbar-div-row">
+            <nav class="navbar navbar-expand-lg navbar-light col-12">
+                <div class="container-fluid navfluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo/logo.jpg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav nav-pills ms-auto mb-2 mb-lg- ulnav" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active navbar-color" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true"> <span class="span-item">Home</span></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link navbar-color" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false"> <span
+                                        class="span-item">Productos</span></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link navbar-color" id="pills-question-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-question" type="button" role="tab"
+                                    aria-controls="pills-question" aria-selected="false"> <span
+                                        class="span-item">Preguntas Frecuentes</span></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link navbar-color" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false"> <span
+                                        class="span-item">Contacto</span></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link navbar-color" id="pills-car-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-car" type="button" role="tab" aria-controls="pills-car"
+                                    aria-selected="false"> <span class="span-item">Carrito <span
+                                            class="badge bg-dark spanCompra">0</span></span></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Termina el Header -->
+
+    <!-- comienza el Main -->
+    <main class="container-fluid main-index">
+        <div class="tab-content" id="pills-tabContent">
+            <!-- *********************************** TAB HOME  **********************************************  -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <!-- imagen fondo index -->
+                <div class="row justify-content-center div-image"></div>
+                <!-- muestro titulo de bienvenida -->
+                <h1 class=" text-center position-static col-12 estilo-titulo-index-h1">
+                    Bienvenidos a nuestra tienda On-Line</h1>
+                <p class="text-center position-static col-12 estilo-p-index"> Todo lo que necesitas para tu hogar </p>
+                <!-- muestro información importante -->
+                <div
+                    class="d-flex flex-row sm-0 justify-content-evenly align-items-center position-static color-info-main">
+                    <div class="p-2 col-4 text-center border-end border-secondary border-1">
+                        <img src="img/utilities/pay.png" alt="pago" class="img-fluid p-2 img-info">
+                        <p class="p-1 m-1 ">Metodo de pago</p>
+                    </div>
+                    <div class="p-2 col-4 text-center border-end border-secondary border-1">
+                        <img src="img/utilities/camionenvio.png" alt="envio" class="img-fluid p-1 img-info">
+                        <p class="p-1 m-1 ">Envíos gratis + 6.000,00 $</p>
+                    </div>
+                    <div class="p-2 col-4 text-center border-end border-secondary border-1">
+                        <img src="img/utilities/devolucion.png" alt="devolucion" class="img-fluid p-1 img-info">
+                        <p class="p-1 m-1 ">Devolución gratis</p>
+                    </div>
+                </div>
+                <!-- sección de productos del index -->
+                <div class="row">
+                    <h2
+                        class=" text-center p-3 position-static col-12 estilo-text-h2 text-uppercase estilo-titulo-index">
+                        Descubre todos los productos que temenmos para vos </h2>
+                </div>
+                <!-- armo un carrusel para las imagenes de los productos destacados -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/utilities/collage.png" class="d-block w-100" alt="collage">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/utilities/collage1.png" class="d-block w-100" alt="collage1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/utilities/collage2.png" class="d-block w-100" alt="collage2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- *********************************** TAB DE PRODUCTOS  **********************************************  -->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <h1 id="tituloproducto">PRODUCTOS</h1>
+                <!-- muestra de listado de productos -->
+                <section id="productos" class="container">
+                    <template>
+                        <div class="card col-sd-1 col-md-4 m-sd-1  p-2 position-static estilo-imagen-producto">
+                            <img src="" alt="" class="card-img-top img-fluid transforma-imagen">
+                            <div class="card-body div-boton-compra">
+                                <h2 class="h2compra"> </h2>
+                                <p class="precio"></p>
+                                <small id="cant" class="cant"></small>
+                            </div>
+                            <div class="div-agregar-prod">
+                                <button class="button suma">
+                                    <i class="bi bi-caret-up-fill"></i>
+                                </button>
+                                <div class="cant">
+                                    <h2 id="cantidad" class="align-middle ">xx</h2>
+                                </div>
+                                <button class="button resta">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                                <button class="button  " type="button" id="boton-compra">
+                                    <i class="bi bi-cart-check-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </template>
+                </section>
+            </div>
+            <!-- *********************************** TAB DE PREGUNTAS  **********************************************  -->
+            <div class="tab-pane fade" id="pills-question" role="tabpanel" aria-labelledby="pills-question-tab"
+                tabindex="0">
+                <h1>Preguntas Frecuentes</h1>
+                <div class="container w-70">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    ¿Qué formas de pago puedo aprovechar para realizar mi compra?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>Disponemos de los siguientes medios de pago:</strong>
+                                    <ul class="ulList">
+                                        <li> Tarjetas de credito y débito </li>
+                                        <li> Transferencia bancaria </li>
+                                        <li> Mercado pago </li>
+                                        <li> Efectivo </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    ¿Opciones de envío?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    ARGENTINA: Hacemos envíos a todo el país por OCA. Podes elegir entre retirar por la
+                                    sucursal más
+                                    cercana o que te lo mandemos a tu casa. Si eligieras envío a domicilio, podes
+                                    calcular
+                                    el costo
+                                    del envio poniendo el código postal en el carrito de compras.
+
+                                    Importante! Siempre que hagan la compra les va a llegar el código de seguimiento. Si
+                                    se
+                                    eligió
+                                    la opción "retirar por OCA" y no se retiro en el tiempo de espera de OCA (5 días
+                                    aprox
+                                    desde que
+                                    llega) o si OCA no encuentra a nadie en el domicilio, el costo del nuevo envío corre
+                                    por
+                                    cuenta
+                                    del cliente y los tiempos de demora pueden variar en función del stock disponible.
+
+
+
+                                    - PICK-UP STORE: Podes retirar tu compra los jueves. Una vez que hagas la compra te
+                                    llega un
+                                    mail con todas las aclaraciones y el contacto!.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    ¿Cuánto tarda en llegar el pedido?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    En general la demora se encuentra
+                                    entre 3 y 7 días hábiles luego de acreditado el pago.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    ¿Cuál es el plazo para realizar un cambio?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    Por cambios de productos con fallas de Fabrica, se cuenta con 72 hs desde el momento
+                                    de
+                                    la
+                                    recepción del pedido, posterior a ese plazo no se tomaran reclamos. La empresa no se
+                                    responsabiliza por roturas en el transporte. Deberá hacer el reclamo DIRECTAMENTE A
+                                    LA
+                                    EMPRESA
+                                    DE TRANSPORTE. Los productos de cerámica son artesanales y pueden tener detalles.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFive">
+                                    ¿CÓMO HAGO PARA para cambiar/devolver un producto?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFive">
+                                <div class="accordion-body">
+                                    Envianos un mail a productos.deco@gmail.com con los siguientes detalles:
+
+                                    Asunto: CAMBIO/DEVOLUCIÓN + NUMERO DE COMPRA
+
+                                    Texto: motivo de cambio/devolución.
+
+                                    Si es cambio: aclarar producto por el que lo quisieras cambiar.
+
+                                    Incluir: datos de cuenta bancaria para devolver el dinero una vez revisado que el
+                                    producto este
+                                    en perfectas condiciones.
+
+                                    Una vez que te respondemos el mail: Si vas a dejar el producto en nuestro pick up
+                                    store,
+                                    se
+                                    cordina antes por teléfono. De lo contrario se envía por oca utilizando nuestro
+                                    mail.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- *********************************** TAB DE CONTACTO  **********************************************  -->
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">
+                <div class="mainComun">
+                    <div>
+                        <h1 class="mainTitulo"> Contacto </h1>
+                    </div>
+                    <!-- empieza la section-->
+                    <section class="sContacto">
+                        <!-- comienza el formulario-->
+                        <form action="" id="form">
+                            <legend>
+                                <h2 class="legendH2">Contactanos y en breve te responderemos</h2>
+                            </legend>
+                            <div class="divFormulario">
+                                <label class="label" for="nombre">
+                                    <h3 class="labelH3">Nombre Completo:</h3>
+                                </label>
+                                <input class="input" type="text" name="nombre" placeholder="Pedro Perez">
+                            </div>
+                            <div class="divFormulario">
+                                <label class="label" for="email">
+                                    <h3 class="labelH3">E-mail: </h3>
+                                </label>
+                                <input class="input" type="email" name="email" placeholder="pedro.perez@gmail.com">
+                            </div>
+                            <div class="divFormulario">
+                                <label class="label" for="telefono">
+                                    <h3 class="labelH3">Telefono (opcional): </h3>
+                                </label>
+                                <input class="input" type="tel" name="telefono" placeholder="11 1234 7568"
+                                    pattern="[0-9]{2}[0-9]{4}[0-9]{4}"
+                                    title="Por favor introduzca un número valido código de area 11 y número" required>
+                            </div>
+                            <div class="divFormulario">
+                                <label class="label" for="Mensaje">
+                                    <h3 class="labelH3">Mensaje:</h3>
+                                </label>
+                                <input class="textarea" type="text" name="mensaje"
+                                    placeholder="Buen día me gustaria......">
+                            </div>
+
+                            <div class="divFormularioBoton">
+                                <input type="submit" id="button" value="Enviar Mensaje">
+                            </div>
+                        </form>
+                        <!--termina el form -->
+                    </section>
+                    <!--termina la section -->
+                    <!-- modal para el alert de enviado el mensaje-->
+                    <div id="modal-container" class="modal-container modal-container-contacto">
+                        <div id="modal" class="my-modal">
+                            <ul class="modal-ul">
+                                <li class="modal-il">
+                                </li>
+                            </ul>
+                            <h2> Su mensaje fue enviado, lo contactaremos en breve</h2>
+                            <button id="modal-close" class="btn btn-dark"> Cerrar </button>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- *********************************** TAB DE CARRITO  **********************************************  -->
+            <div class="tab-pane fade" id="pills-car" role="tabpanel" aria-labelledby="pills-car-tab" tabindex="0">
+                <div class="divIframe"></div>
+                <div class="container w-70">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr class="thead-dark">
+                                <th scope="col">#</th>
+                                <th scope="col">Productos</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container w-70">
+                    <div class="row mx-4">
+                        <div class="col">
+                            <h3 class="itemCartTotal">Total: 0</h3>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <a class="btn btn btn-outline-dark comprar">
+                                COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr><br>
+
+                <div id="containerCompra" class="container pago hide">
+                    <!-- <div id="compra" class=" my-compra"> -->
+                        <form>
+                            <legend class="header">
+                                <h5 class="title" id="">Datos para la compra</h5>
+                            </legend>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control nombre" placeholder="Nombre" maxlength="20" aria-label="nombre"
+                                        required>
+                                </div>
+                                <div class="col">
+                                <input type="tel" class="form-control telefono" placeholder="Telefono 11 7648 7652" aria-label="telefono"
+                                    pattern="[0-9]{2}[0-9]{4}[0-9]{4}"
+                                    title="Por favor introduzca un número valido código de area y número" required>
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control dni" placeholder="DNI" aria-label="dni" pattern="[0-9]{8}" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row g-3">
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control calle" placeholder="Calle y altura" maxlength="20" aria-label="calle"
+                                        required>
+                                </div>
+                                <div class="col-sm">
+                                    <input type="text" class="form-control provincia" placeholder="Provincia" maxlength="10" aria-label="provincia"
+                                        required>
+                                </div>
+                                <div class="col-sm">
+                                    <input type="text" class="form-control postal" placeholder="CP" maxlength="10"
+                                        aria-label="CodigoPostal" required>
+                                </div>
+                            </div>
+                            <br>
+                            <fieldset class="row mb-3">
+                                <legend class="col-form-label col-sm-2 pt-0">Forma de pago</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input pago" type="radio" name="gridRadios" id="gridRadios1"
+                                            value="Transferencia" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Transferencia
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input pago" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="Tarjeta">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Pago con tarjeta
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <button type="submit" class="btn btn-dark okCompra"> Pagar y generar factura </button>
+                            <button type="button" class="btn btn-dark cancelaCompra"> Cancelar compra </button>
+                        </form>
+                        <!-- <hr> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+
+    </main>
+    <!-- Termina el Main -->
+    <!-- Empiza el Footer -->
+    <footer class="footer-general">
+        <div class="container-fluid div-footer">
+            <!-- Información del contacto-->
+            <div class="row div-contacto">
+                <div class="col-12 estilo-contacto">
+                    <h4 class="estilo-text-h3 mb-0 text-uppercase ">CONTACTO</h4>
+                    <p class="estilo-p-telefono mb-0"><i class="bi bi-telephone"></i> <span> +54 11 6929 9999</span></p>
+                    <a class="estilo-a-mail" href="mailto:productos.deco@gmail.com"><i class="bi bi-envelope"></i>
+                        <span>productos.deco@gmail.com</span> </a>
+                    <p class="estilo-p-direccion"> <i class="bi bi-geo-alt"></i> <span>Sebastián Elcano 888, Acassuso,
+                            Buenos Aires</span> </p>
+                </div>
+            </div>
+
+            <!-- imagenes de las redes-->
+            <div class="row text-center div_redes">
+                <div class="col-12">
+                    <a class="estilo-a-imagen-footer" href="https://www.instagram.com/" target="_blank">
+                        <i class="bi bi-instagram imagen-social"></i>
+                    </a>
+                    <a class="estilo-a-imagen-footer" href="http://www.facebook.com" target="_blank">
+                        <i class="bi bi-facebook imagen-social"></i>
+                    </a>
+                    <a class="estilo-a-imagen-footer" href="https://twitter.com/" target="_blank">
+                        <i class="bi bi-twitter imagen-social"></i>
+                    </a>
+                    <a class="estilo-a-imagen-footer" href="https://wa.me/0541168309372" target="_blank">
+                        <i class="bi bi-whatsapp imagen-social"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row div-derechos">
+                <h5 class="col-12 text-center estilo-text-h4 p-2 ">Todos los derechos reservados</h5>
+            </div>
+        </div>
+    </footer>
+    <!-- termina el footer -->
+
+    <!-- link js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- script js -->
+    <!-- js para envio de mail del contacto  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('MhV4hAG6zVW0ikLq7')
+    </script>
+
+<!-- js para generar el pdf de la factura -->
+    <script src="https://unpkg.com/jspdf-invoice-template@1.4.3/dist/index.js"></script>
+
+    <!-- js de mi proyecto -->
+    <script defer src="./js/variables.js"></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/productos.js"></script>
+    <script defer src="./js/card_widget.js"></script>
+    <script defer src="./js/carrito.js"></script>
+
+    <script defer src="../js/factura.js"></script>
+    <script defer src="./js/contacto.js"></script>
+
+</body>
+
+</html>
