@@ -141,7 +141,7 @@ window.onload = function () {
 
 comprar.addEventListener("click", () => {
   console.log(carrito.length)
-  if (carrito,length >= 1) {
+  if (carrito.length >= 1) {
       pago.classList.remove("hide")
       location.hash = "#containerCompra"   
   }
