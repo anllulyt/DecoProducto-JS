@@ -119,7 +119,7 @@ let date = new Date();
           }
         },
         {
-          col1: 'Impote otros Tributos: $ ',
+          col1: 'Importe otros Tributos: $ ',
           col2: "0,00",
           style: {
             fontSize: 10 //optional, default 12
@@ -148,7 +148,7 @@ let date = new Date();
   }
 
   function actualizar() {
-    console.log(actualizo)
+    console.log('actualizo')
     pago.classList.add("hide")
     carrito= []
     total = 0
