@@ -26,8 +26,6 @@ const listModal = document.querySelector('.modal-il')
 
 
 const comprar = document.querySelector(".comprar")
-const cancelaCompra = document.querySelector('.cancelaCompra')
-const okCompra = document.querySelector('.okCompra')
 const pago = document.querySelector('.pago')
 
 const sectionP = document.querySelector('.sDataPago')

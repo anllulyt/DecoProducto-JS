@@ -1,14 +1,24 @@
+formP.id = 'formP'
+
+formP.innerHTML = contentP
+sectionP.append(formP)
+
+
 const nombreCompra = document.querySelector('.nombre')
 const telefonoCompra = document.querySelector('.telefono')
 const dniCompra = document.querySelector('.dni')
 const calleCompra = document.querySelector('.calle')
 const provinciaCompra = document.querySelector('.provincia')
 const postalCompra = document.querySelector('.postal')
+const cancelaCompra = document.querySelector('.cancelaCompra')
+const okCompra = document.querySelector('.okCompra')
+
 let dataFactura
 let props
 
-okCompra.addEventListener('click', () => {
 
+okCompra.addEventListener('click', () => {
+  console.log('dataFactura')
   const pagoCompra = document.querySelector('input[name="gridRadios"]:checked').value
 
   if ((nombreCompra.value) && (telefonoCompra.value) && (dniCompra.value) && (calleCompra.value) && (provinciaCompra.value) && (postalCompra.value)) {
@@ -21,6 +31,7 @@ okCompra.addEventListener('click', () => {
       "postal": postalCompra.value,
       "pago": pagoCompra,
     }
+    console.log(dataFactura)
     cargaData()
     actualizar()
   }
