@@ -48,7 +48,7 @@ let date = new Date();
       orientationLandscape: false,
       compress: true,
       logo: {
-        src: "../img/logo/logo.jpg",
+        src: "./img/logo/logo.jpg",
         margin: {
           top: 0,
           left: 0
