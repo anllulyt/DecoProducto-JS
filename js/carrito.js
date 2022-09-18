@@ -1,5 +1,5 @@
+//  agregar al carrito
 function addItemCarrito(producto, cant) {
-  // console.log(cant)
   const Toast = Swal.mixin({
     toast: true,
     position: 'bottom-end',
@@ -21,7 +21,6 @@ function addItemCarrito(producto, cant) {
   for (let i = 0; i < carrito.length; i++) {
     if (carrito[i].nombre.trim() === producto.nombre.trim()) {
       carrito[i].cant++
-      // console.log(carrito[i].cant)
       const InputElemnto = tbody.getElementsByClassName('inputElemento')
       const inputValue = InputElemnto[i]
       inputValue.value++
@@ -31,13 +30,11 @@ function addItemCarrito(producto, cant) {
   }
 
   carrito.push(producto)
-  // console.log(carrito)
   carrito.cant = cant
   renderCarrito()
 }
 
-
-
+// render del carrito
 function renderCarrito() {
   tbody.innerHTML = ''
   spanCompra.innerHTML = carrito.length
@@ -68,6 +65,7 @@ function renderCarrito() {
   carritoTotal()
 }
 
+// calculo el total de la compra
 function carritoTotal() {
   total = 0;
   carrito.forEach((item) => {
@@ -78,6 +76,7 @@ function carritoTotal() {
   addLocalStorage()
 }
 
+// función para remover del carrito
 function removeItemCarrito(e) {
   const buttonDelete = e.target
   const tr = buttonDelete.closest(".ItemCarrito")
@@ -107,11 +106,11 @@ function removeItemCarrito(e) {
     title: 'Producto eliminado de tu lista de compras'
   })
 
-
   tr.remove()
   carritoTotal()
 }
 
+// ir sumando cantidad desde el carrito
 function sumaCantidad(e) {
   const sumaInput = e.target
   const tr = sumaInput.closest(".ItemCarrito")
@@ -126,6 +125,7 @@ function sumaCantidad(e) {
   })
 }
 
+// local storage
 function addLocalStorage() {
   localStorage.setItem('carrito', JSON.stringify(carrito))
 }
@@ -138,13 +138,11 @@ window.onload = function () {
   }
 }
 
-
+// función de la compra para generar la factura 
 comprar.addEventListener("click", () => {
   console.log(carrito.length)
   if (carrito.length >= 1) {
     pago.classList.remove("hide")
     location.hash = "#containerCompra"
   }
-
 })
-

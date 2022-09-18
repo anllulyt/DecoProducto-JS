@@ -7,8 +7,6 @@ class CardWidget {
         this.cantidadDom = nodo.querySelector("#cantidad")
         this.stockDom = nodo.querySelector("#cant")
         this.cantidadDom.innerText = 0
-
-        // console.log(this.producto)
         this.suma = nodo.querySelector(".suma")
         this.resta = nodo.querySelector(".resta")
         this.compra = nodo.querySelector("#boton-compra")

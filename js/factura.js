@@ -1,9 +1,4 @@
-formP.id = 'formP'
-
-formP.innerHTML = contentP
-sectionP.append(formP)
-
-
+// recupero campo de los inputs
 const nombreCompra = document.querySelector('.nombre')
 const telefonoCompra = document.querySelector('.telefono')
 const dniCompra = document.querySelector('.dni')
@@ -16,12 +11,21 @@ const okCompra = document.querySelector('.okCompra')
 let dataFactura
 let props
 
+function validanumero(numero) {
+  if ((numero <= 0) || (numero == "") || (isNaN(numero))) {
+    return false
+  } else {
+    return true
+  }
+}
 
+// boton de pagar y generar factura
 okCompra.addEventListener('click', () => {
-  console.log('dataFactura')
+  const tel = validanumero(Number(telefonoCompra.value))
+  const dni = validanumero(Number(dniCompra.value))
   const pagoCompra = document.querySelector('input[name="gridRadios"]:checked').value
 
-  if ((nombreCompra.value) && (telefonoCompra.value) && (dniCompra.value) && (calleCompra.value) && (provinciaCompra.value) && (postalCompra.value)) {
+  if ((nombreCompra.value) && (tel) && (dni) && (calleCompra.value) && (provinciaCompra.value) && (postalCompra.value)) {
     dataFactura = {
       "nombre": nombreCompra.value,
       "telefono": telefonoCompra.value,
@@ -41,127 +45,131 @@ okCompra.addEventListener('click', () => {
 let index = 1
 let date = new Date();
 
-  function generatePDF() {
-   const db = jsPDFInvoiceTemplate.default(props);
-   console.log(db)
+// genera el PDF
+function generatePDF() {
+  const db = jsPDFInvoiceTemplate.default(props);
+  console.log(db)
 }
 
-  function cargaData() {
-    props = {
-      outputType: jsPDFInvoiceTemplate.OutputType.Save,
-      returnJsPDFDocObject: false,
-      fileName: "Factura_" + date.toLocaleDateString(),
-      orientationLandscape: false,
-      compress: true,
-      logo: {
-        src: "./img/logo/logo.jpg",
-        margin: {
-          top: 0,
-          left: 0
-        }
-      },
-      stamp: {
-        inAllPages: true, //by default = false, just in the last page
-        src: "https://raw.githubusercontent.com/edisonneza/jspdf-invoice-template/demo/images/qr_code.jpg",
-        type: 'JPG', //optional, when src= data:uri (nodejs case)
-        width: 20, //aspect ratio = width/height
-        height: 20,
-        margin: {
-          top: 0, //negative or positive num, from the current position
-          left: 0 //negative or positive num, from the current position
-        }
-      },
-      business: {
-        name: "Factura",
-        address: "Sebastián Elcano 888, Acassuso, Buenos Aire",
-        phone: "+54 11 6929 9999",
-        email: "productos.deco@gmail.com",
-        website: "www.decoproductos.com"
-      },
-      contact: {
-        label: "Datos de cliente:",
-        name: dataFactura.nombre,
-        address: dataFactura.calle + ', ' + dataFactura.provincia + ', ' + dataFactura.postal,
-        phone: dataFactura.telefono,
-        dni: dataFactura.dni
-      },
-      invoice: {
-        label: "Factura #: ",
-        num: `000000100${index++}`,
-        invDate: "Fecha: " + date.toLocaleDateString(),
-        headerBorder: false,
-        tableBodyBorder: false,
-        header: [
-          {
-            title: "#",
-            style: {
-              width: 10
-            }
-          },
-          {
-            title: "Descripción",
-            style: {
-              width: 90
-            }
-          },
-          { title: "Precio" },
-          { title: "Cantidad" },
-          { title: "U Medida" },
-          { title: "Total" }
-        ],
-        table: carrito.map(item => ([
-          index++,
-          item.nombre,
-          new Intl.NumberFormat('de-DE').format(item.precio) + ",00",
-          item.cant,
-          "uni",
-          new Intl.NumberFormat('de-DE').format(Number(item.precio) * Number(item.cant)) + ",00", 
-        ])),
-        additionalRows: [{
-          col1: 'SubTotal: $ ',
-          col2: new Intl.NumberFormat('de-DE').format(total) + ",00",
+// cargo la infor para el pdf
+function cargaData() {
+  props = {
+    outputType: jsPDFInvoiceTemplate.OutputType.Save,
+    returnJsPDFDocObject: false,
+    fileName: "Factura_" + date.toLocaleDateString(),
+    orientationLandscape: false,
+    compress: true,
+    logo: {
+      src: "./img/logo/logo.jpg",
+      margin: {
+        top: 0,
+        left: 0
+      }
+    },
+    stamp: {
+      inAllPages: true, //by default = false, just in the last page
+      src: "https://raw.githubusercontent.com/edisonneza/jspdf-invoice-template/demo/images/qr_code.jpg",
+      type: 'JPG', //optional, when src= data:uri (nodejs case)
+      width: 20, //aspect ratio = width/height
+      height: 20,
+      margin: {
+        top: 0, //negative or positive num, from the current position
+        left: 0 //negative or positive num, from the current position
+      }
+    },
+    business: {
+      name: "Factura",
+      address: "Sebastián Elcano 888, Acassuso, Buenos Aire",
+      phone: "+54 11 6929 9999",
+      email: "productos.deco@gmail.com",
+      website: "www.decoproductos.com"
+    },
+    contact: {
+      label: "Datos de cliente:",
+      name: dataFactura.nombre,
+      address: dataFactura.calle + ', ' + dataFactura.provincia + ', ' + dataFactura.postal,
+      phone: dataFactura.telefono,
+      dni: dataFactura.dni
+    },
+    invoice: {
+      label: "Factura #: ",
+      num: `000000100${index++}`,
+      invDate: "Fecha: " + date.toLocaleDateString(),
+      headerBorder: false,
+      tableBodyBorder: false,
+      header: [
+        {
+          title: "#",
           style: {
-            fontSize: 10 //optional, default 12
+            width: 10
           }
         },
         {
-          col1: 'Importe otros Tributos: $ ',
-          col2: "0,00",
+          title: "Descripción",
           style: {
-            fontSize: 10 //optional, default 12
+            width: 90
           }
         },
-        {
-          col1: 'Total: $ ',
-          col2: new Intl.NumberFormat('de-DE').format(total) + ",00",
-          style: {
-            fontSize: 14 //optional, default 12
-          }
-        }],
+        { title: "Precio" },
+        { title: "Cantidad" },
+        { title: "U Medida" },
+        { title: "Total" }
+      ],
+      table: carrito.map(item => ([
+        index++,
+        item.nombre,
+        new Intl.NumberFormat('de-DE').format(item.precio) + ",00",
+        item.cant,
+        "uni",
+        new Intl.NumberFormat('de-DE').format(Number(item.precio) * Number(item.cant)) + ",00",
+      ])),
+      additionalRows: [{
+        col1: 'SubTotal: $ ',
+        col2: new Intl.NumberFormat('de-DE').format(total) + ",00",
+        style: {
+          fontSize: 10 //optional, default 12
+        }
+      },
+      {
+        col1: 'Importe otros Tributos: $ ',
+        col2: "0,00",
+        style: {
+          fontSize: 10 //optional, default 12
+        }
+      },
+      {
+        col1: 'Total: $ ',
+        col2: new Intl.NumberFormat('de-DE').format(total) + ",00",
+        style: {
+          fontSize: 14 //optional, default 12
+        }
+      }],
 
-        invDescLabel: "Nota:",
-        invDesc: `Metodo de pago = ${dataFactura.pago}.
+      invDescLabel: "Nota:",
+      invDesc: `Metodo de pago = ${dataFactura.pago}.
          Para devoluciones, posee 30 días a partir de la fecha de emisión de la factura.
          `,
-      },
-      footer: {
-        text: "Derechos reservados Deco productos",
-      },
-      pageEnable: true,
-      pageLabel: "Page ",
-    }
-    generatePDF()
+    },
+    footer: {
+      text: "Derechos reservados Deco productos",
+    },
+    pageEnable: true,
+    pageLabel: "Page ",
   }
+  generatePDF()
+}
 
-  function actualizar() {
-    location.hash = ''
-    console.log('actualizo')
-    pago.classList.add("hide")
-    carrito= []
-    total = 0
-    localStorage.removeItem('carrito')
-  }
+// actualizo los datos para nueva compra
+function actualizar() {
+  location.hash = ''
+  console.log('actualizo')
+  pago.classList.add("hide")
+  carrito = []
+  total = 0
+  localStorage.removeItem('carrito')
+}
 
-  cancelaCompra.addEventListener('click', () => {
-    pago.classList.add("hide")
-  })
+// boton de cancelar compra
+cancelaCompra.addEventListener('click', () => {
+  pago.classList.add("hide")
+})

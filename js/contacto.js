@@ -1,7 +1,6 @@
-
+// formulario del contacto
 const descrip = (descript, namefor) => `<label class="label" for="${namefor}"><h3 class="labelH3">${descript}:</h3></label>`
 const inputC = (type, name, placeholder) => `<input class="input" type="${type}" name="${name}" placeholder="${placeholder}"`
-
 
 formC.id = 'form'
 
