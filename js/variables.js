@@ -26,9 +26,12 @@ const listModal = document.querySelector('.modal-il')
 
 
 const comprar = document.querySelector(".comprar")
-const divIframe = document.querySelector(".divIframe")
 const cancelaCompra = document.querySelector('.cancelaCompra')
-const pago = document.querySelector('.pago')
 const okCompra = document.querySelector('.okCompra')
+const pago = document.querySelector('.pago')
 
+const sectionP = document.querySelector('.sDataPago')
+const formP = document.createElement('form')
 
+const sectionC = document.querySelector('.sContacto')
+const formC = document.createElement('form')

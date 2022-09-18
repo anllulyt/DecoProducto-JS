@@ -310,49 +310,12 @@
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
                 tabindex="0">
                 <div class="mainComun">
-                    <div>
+                    <!-- <div>
                         <h1 class="mainTitulo"> Contacto </h1>
-                    </div>
+                    </div> -->
                     <!-- empieza la section-->
                     <section class="sContacto">
                         <!-- comienza el formulario-->
-                        <form action="" id="form">
-                            <legend>
-                                <h2 class="legendH2">Contactanos y en breve te responderemos</h2>
-                            </legend>
-                            <div class="divFormulario">
-                                <label class="label" for="nombre">
-                                    <h3 class="labelH3">Nombre Completo:</h3>
-                                </label>
-                                <input class="input" type="text" name="nombre" placeholder="Pedro Perez">
-                            </div>
-                            <div class="divFormulario">
-                                <label class="label" for="email">
-                                    <h3 class="labelH3">E-mail: </h3>
-                                </label>
-                                <input class="input" type="email" name="email" placeholder="pedro.perez@gmail.com">
-                            </div>
-                            <div class="divFormulario">
-                                <label class="label" for="telefono">
-                                    <h3 class="labelH3">Telefono (opcional): </h3>
-                                </label>
-                                <input class="input" type="tel" name="telefono" placeholder="11 1234 7568"
-                                    pattern="[0-9]{2}[0-9]{4}[0-9]{4}"
-                                    title="Por favor introduzca un número valido código de area 11 y número" required>
-                            </div>
-                            <div class="divFormulario">
-                                <label class="label" for="Mensaje">
-                                    <h3 class="labelH3">Mensaje:</h3>
-                                </label>
-                                <input class="textarea" type="text" name="mensaje"
-                                    placeholder="Buen día me gustaria......">
-                            </div>
-
-                            <div class="divFormularioBoton">
-                                <input type="submit" id="button" value="Enviar Mensaje">
-                            </div>
-                        </form>
-                        <!--termina el form -->
                     </section>
                     <!--termina la section -->
                     <!-- modal para el alert de enviado el mensaje-->
@@ -414,11 +377,11 @@
                                 </div>
                                 <div class="col">
                                 <input type="tel" class="form-control telefono" placeholder="Telefono 11 7648 7652" aria-label="telefono"
-                                    pattern="[0-9]{2}[0-9]{4}[0-9]{4}"
+                                    pattern="[0-9]{2}[0-9]{4}[0-9]{4}"  maxlength="10"
                                     title="Por favor introduzca un número valido código de area y número" required>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control dni" placeholder="DNI" aria-label="dni" pattern="[0-9]{8}" required>
+                                    <input type="text" class="form-control dni" placeholder="DNI" aria-label="dni"  maxlength="8" pattern="[0-9]{8}" required>
                                 </div>
                             </div>
                             <br>
@@ -525,12 +488,13 @@
     <!-- js de mi proyecto -->
     <script defer src="./js/variables.js"></script>
     <script defer src="./js/modal.js"></script>
+    <script defer src="./js/contacto.js"></script>
     <script defer src="./js/productos.js"></script>
     <script defer src="./js/card_widget.js"></script>
     <script defer src="./js/carrito.js"></script>
 
     <script defer src="./js/factura.js"></script>
-    <script defer src="./js/contacto.js"></script>
+
 
 </body>
 

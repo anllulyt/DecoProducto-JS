@@ -9,10 +9,6 @@ let props
 
 okCompra.addEventListener('click', () => {
 
-  location.hash = ''
-  location.href = ''
-  Location.arguments = ''
-  
   const pagoCompra = document.querySelector('input[name="gridRadios"]:checked').value
 
   if ((nombreCompra.value) && (telefonoCompra.value) && (dniCompra.value) && (calleCompra.value) && (provinciaCompra.value) && (postalCompra.value)) {
@@ -25,10 +21,9 @@ okCompra.addEventListener('click', () => {
       "postal": postalCompra.value,
       "pago": pagoCompra,
     }
+    cargaData()
+    actualizar()
   }
-  console.log(dataFactura)
-  cargaData()
-  actualizar()
 
 })
 
@@ -148,6 +143,7 @@ let date = new Date();
   }
 
   function actualizar() {
+    location.hash = ''
     console.log('actualizo')
     pago.classList.add("hide")
     carrito= []
