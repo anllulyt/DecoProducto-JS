@@ -26,6 +26,7 @@ okCompra.addEventListener('click', () => {
       "pago": pagoCompra,
     }
   }
+  console.log(dataFactura)
   cargaData()
   actualizar()
 
@@ -36,6 +37,7 @@ let date = new Date();
 
   function generatePDF() {
    const db = jsPDFInvoiceTemplate.default(props);
+   console.log(db)
 }
 
   function cargaData() {
@@ -146,7 +148,7 @@ let date = new Date();
   }
 
   function actualizar() {
-   
+    console.log(actualizo)
     pago.classList.add("hide")
     carrito= []
     total = 0
