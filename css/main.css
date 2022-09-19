@@ -1,308 +1,475 @@
 @charset "UTF-8";
-.footer-general {
-  margin-top: 20px;
-  box-shadow: 0 0 5px 0 black; }
-  .footer-general .div-footer .div-contacto .estilo-contacto {
-    color: black; }
-    .footer-general .div-footer .div-contacto .estilo-contacto .estilo-text-h3 {
-      font-size: 1.2rem;
-      font-weight: bolder;
-      padding: 0.5rem; }
-    .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-telefono {
-      font-size: 1rem;
-      margin-left: 0.5rem; }
-    .footer-general .div-footer .div-contacto .estilo-contacto .estilo-a-mail {
-      font-size: 1rem;
-      color: black;
-      text-decoration: none;
-      margin-left: 0.5rem; }
-    .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-direccion {
-      font-size: 1rem;
-      margin-left: 0.5rem; }
-  .footer-general .div-footer .div_redes .estilo-a-imagen-footer {
-    text-decoration: none; }
-    .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social {
-      color: black;
-      font-size: x-large; }
-      .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social:hover {
-        transform: scale(5);
-        color: #595959; }
-  .footer-general .div-footer .div-derechos {
-    color: black;
-    font-size: 1rem; }
-    .footer-general .div-footer .div-derechos .estilo-text-h4 {
+@media screen and (min-width: 1024px) {
+  .footer-general {
+    margin-top: 20px;
+    box-shadow: 0 0 5px 0 black; }
+    .footer-general .div-footer .div-contacto .estilo-contacto {
+      color: black; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-text-h3 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+        padding: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-telefono {
+        font-size: 1rem;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-a-mail {
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-direccion {
+        font-size: 1rem;
+        margin-left: 0.5rem; }
+    .footer-general .div-footer .div_redes .estilo-a-imagen-footer {
+      text-decoration: none; }
+      .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social {
+        color: black;
+        font-size: x-large; }
+        .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social:hover {
+          transform: scale(5);
+          color: #595959; }
+    .footer-general .div-footer .div-derechos {
       color: black;
       font-size: 1rem; }
+      .footer-general .div-footer .div-derechos .estilo-text-h4 {
+        color: black;
+        font-size: 1rem; } }
 
-.menu-header {
-  background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 0 5px 0 black; }
-  .menu-header .navbar-div-row {
-    padding: 0;
-    margin: 0;
-    background-color: white; }
-    .menu-header .navbar-div-row .navbar {
+@media screen and (min-width: 768px) {
+  .footer-general {
+    margin-top: 20px;
+    box-shadow: 0 0 5px 0 black; }
+    .footer-general .div-footer .div-contacto .estilo-contacto {
+      color: black; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-text-h3 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+        padding: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-telefono {
+        font-size: 1rem;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-a-mail {
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-direccion {
+        font-size: 1rem;
+        margin-left: 0.5rem; }
+    .footer-general .div-footer .div_redes .estilo-a-imagen-footer {
+      text-decoration: none; }
+      .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social {
+        color: black;
+        font-size: x-large; }
+        .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social:hover {
+          transform: scale(5);
+          color: #595959; }
+    .footer-general .div-footer .div-derechos {
+      color: black;
+      font-size: 1rem; }
+      .footer-general .div-footer .div-derechos .estilo-text-h4 {
+        color: black;
+        font-size: 1rem; } }
+
+@media screen and (min-width: 320px) {
+  .footer-general {
+    margin-top: 20px;
+    box-shadow: 0 0 5px 0 black; }
+    .footer-general .div-footer .div-contacto .estilo-contacto {
+      color: black; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-text-h3 {
+        font-size: 0.9rem;
+        font-weight: bolder;
+        padding: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-telefono {
+        font-size: 0.7rem;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-a-mail {
+        font-size: 0.7rem;
+        color: black;
+        text-decoration: none;
+        margin-left: 0.5rem; }
+      .footer-general .div-footer .div-contacto .estilo-contacto .estilo-p-direccion {
+        font-size: 0.7rem;
+        margin-left: 0.5rem; }
+    .footer-general .div-footer .div_redes {
+      margin-top: 6px;
+      text-align: end; }
+      .footer-general .div-footer .div_redes .estilo-a-imagen-footer {
+        text-decoration: none;
+        font-size: medium; }
+        .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social {
+          margin-top: 5px;
+          color: black; }
+          .footer-general .div-footer .div_redes .estilo-a-imagen-footer .imagen-social:hover {
+            transform: scale(5);
+            color: #595959; }
+    .footer-general .div-footer .div-derechos {
+      color: black;
+      font-size: 0.7rem; }
+      .footer-general .div-footer .div-derechos .estilo-text-h4 {
+        color: black;
+        font-size: 0.7rem; } }
+
+@media screen and (min-width: 1024px) {
+  .menu-header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 5px 0 black; }
+    .menu-header .navbar-div-row {
       padding: 0;
       margin: 0;
       background-color: white; }
-      .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item {
-        padding: 5px;
-        text-decoration: none;
-        text-align: center;
-        background-position-x: top; }
-        .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link {
-          background-color: white;
-          color: black; }
-          .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item {
-            border-radius: 50%;
-            padding: 0.8rem;
-            font: 1rem "Roboto", sans-serif; }
-            .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra {
+      .menu-header .navbar-div-row .navbar {
+        padding: 0;
+        margin: 0;
+        background-color: white; }
+        .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item {
+          padding: 5px;
+          text-decoration: none;
+          text-align: center;
+          background-position-x: top; }
+          .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link {
+            background-color: white;
+            color: black; }
+            .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item {
               border-radius: 50%;
-              background-color: white;
-              color: black;
-              font: 0.8rem "Roboto", sans-serif;
-              -webkit-box-shadow: 7px 0 5px -3px #8d8b8b;
-              box-shadow: 7px 0 5px -3px #8d8b8b;
-              font-weight: bolder; }
-              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra:hover {
+              padding: 0.8rem;
+              font: 1rem "Roboto", sans-serif; }
+              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra {
+                border-radius: 50%;
                 background-color: white;
                 color: black;
-                box-shadow: 7px 0 5px -3px #8d8b8b; }
-            .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item:hover {
-              -webkit-box-shadow: -7px 0 5px -3px #8d8b8b;
-              box-shadow: -7px 0 5px -3px #8d8b8b; }
+                font: 0.8rem "Roboto", sans-serif;
+                -webkit-box-shadow: 7px 0 5px -3px #8d8b8b;
+                box-shadow: 7px 0 5px -3px #8d8b8b;
+                font-weight: bolder; }
+                .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra:hover {
+                  background-color: white;
+                  color: black;
+                  box-shadow: 7px 0 5px -3px #8d8b8b; }
+              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item:hover {
+                -webkit-box-shadow: -7px 0 5px -3px #8d8b8b;
+                box-shadow: -7px 0 5px -3px #8d8b8b; } }
 
-@keyframes aparecer {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+@media screen and (min-width: 768px) {
+  .menu-header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 5px 0 black; }
+    .menu-header .navbar-div-row {
+      padding: 0;
+      margin: 0;
+      background-color: white; }
+      .menu-header .navbar-div-row .navbar {
+        padding: 0;
+        margin: 0;
+        background-color: white; }
+        .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item {
+          padding: 5px;
+          text-decoration: none;
+          text-align: center;
+          background-position-x: top; }
+          .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link {
+            background-color: white;
+            color: black; }
+            .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item {
+              border-radius: 50%;
+              padding: 0.8rem;
+              font: 1rem "Roboto", sans-serif; }
+              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra {
+                border-radius: 50%;
+                background-color: white;
+                color: black;
+                font: 0.8rem "Roboto", sans-serif;
+                -webkit-box-shadow: 7px 0 5px -3px #8d8b8b;
+                box-shadow: 7px 0 5px -3px #8d8b8b;
+                font-weight: bolder; }
+                .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra:hover {
+                  background-color: white;
+                  color: black;
+                  box-shadow: 7px 0 5px -3px #8d8b8b; }
+              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item:hover {
+                -webkit-box-shadow: -7px 0 5px -3px #8d8b8b;
+                box-shadow: -7px 0 5px -3px #8d8b8b; } }
 
-.main-index .estilo-imagen-producto {
-  width: 18rem; }
+@media screen and (min-width: 320px) {
+  .menu-header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 5px 0 black; }
+    .menu-header .navbar-div-row {
+      padding: 0;
+      margin: 0;
+      background-color: white; }
+      .menu-header .navbar-div-row .navbar {
+        padding: 0;
+        margin: 0;
+        background-color: white; }
+        .menu-header .navbar-div-row .navbar .navfluid .navbar-brand {
+          width: 50%; }
+          .menu-header .navbar-div-row .navbar .navfluid .navbar-brand img {
+            width: 70%; }
+        .menu-header .navbar-div-row .navbar .navfluid .navbar-toggler {
+          text-align: center; }
+          .menu-header .navbar-div-row .navbar .navfluid .navbar-toggler .navbar-toggler-icon {
+            font-size: 1rem;
+            color: black;
+            text-align: center; }
+        .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav {
+          justify-content: space-around; }
+          .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item {
+            text-decoration: none;
+            text-align: center;
+            background-position-x: top; }
+            .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link {
+              background-color: white;
+              color: black;
+              padding: 0; }
+              .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item {
+                border-radius: 50%;
+                padding: 0.2rem;
+                font: 0.6rem "Roboto", sans-serif; }
+                .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra {
+                  border-radius: 50%;
+                  background-color: white;
+                  color: black;
+                  font: 0.6rem "Roboto", sans-serif;
+                  -webkit-box-shadow: 7px 0 5px -3px #8d8b8b;
+                  box-shadow: 7px 0 5px -3px #8d8b8b;
+                  font-weight: bolder; }
+                  .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item .spanCompra:hover {
+                    background-color: white;
+                    color: black;
+                    box-shadow: 7px 0 5px -3px #8d8b8b; }
+                .menu-header .navbar-div-row .navbar .navfluid #navbarSupportedContent .ulnav .nav-item .nav-link .span-item:hover {
+                  -webkit-box-shadow: -7px 0 5px -3px #8d8b8b;
+                  box-shadow: -7px 0 5px -3px #8d8b8b; } }
 
-.main-index .card-title,
-.main-index .card-text {
-  font-size: 1rem; }
-
-.main-index .img-info {
-  width: 6rem; }
-
-.main-index .tab-content #pills-home .div-image {
-  animation-name: aparecer;
-  animation-duration: 2s;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  padding: 0px 0px 700px 0px;
-  object-fit: none;
-  z-index: -1;
-  background-image: url("../img/utilities/fondo.png");
-  -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
-  mask-image: linear-gradient(black, transparent); }
-
-@keyframes aparecer {
-  from {
-    opacity: 0.5; }
-  to {
-    opacity: 2; } }
-
-.main-index .tab-content #pills-home .estilo-titulo-index-h1 {
-  color: black;
-  font: 3rem "Alegreya", serif;
-  animation-name: example;
-  animation-duration: 4s;
-  margin-top: -40rem;
-  margin-bottom: 3rem;
-  text-shadow: 2px 2px 5px #8d8b8b; }
-
-@keyframes example {
-  from {
-    color: black; }
-  to {
-    color: #8d8b8b; } }
-
-.main-index .tab-content #pills-home .estilo-p-index {
-  color: black;
-  animation-name: example;
-  animation-duration: 6s;
-  font: 2rem "Roboto", sans-serif;
-  margin-bottom: 9rem;
-  text-shadow: 2px 2px 5px #8d8b8b; }
-
-@keyframes example {
-  from {
-    color: black; }
-  to {
-    color: #8d8b8b; } }
-
-.main-index .tab-content #pills-home .color-info-main {
-  margin-bottom: 10rem; }
-  .main-index .tab-content #pills-home .color-info-main .border-1 .img-info:hover {
-    transform: scale(1.05); }
-
-.main-index .tab-content #pills-home .rowProd .estilo-titulo-index {
-  color: black;
-  font: 2rem "Alegreya", serif;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  text-shadow: 2px 2px 5px #8d8b8b; }
-
-.main-index .tab-content #pills-home #carouselExampleSlidesOnly {
-  padding: 1rem;
-  margin-bottom: 2rem; }
-  .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item:hover .collage {
-    padding: 1rem;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05); }
-  .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item {
-    overflow: hidden; }
-
-.main-index .tab-content #pills-profile #tituloproducto {
-  font: 2rem "Alegreya", serif;
-  padding: 1rem;
-  text-shadow: 2px 2px 5px #8d8b8b; }
-
-.main-index .tab-content #pills-profile #productos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 2rem 2rem;
-  grid-template-areas: ". . . " ". . . " ". . . ";
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
-  padding: 0px;
-  margin-top: 20px; }
-  .main-index .tab-content #pills-profile #productos .estilo-imagen-producto {
-    width: 35vh;
-    padding: 10px;
-    overflow: hidden;
-    position: static;
-    /*tamaño de las imagenes*/
-    /*Propiedades al H4  HTML Productos */ }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto:hover {
+@media screen and (min-width: 320px) {
+  .main-index .tab-content #pills-home .div-image {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 110%;
+    text-align: center;
+    padding: 0px 0px 300px 0px;
+    object-fit: none;
+    z-index: -1;
+    background-image: url("../img/utilities/fondo.png");
+    -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
+    mask-image: linear-gradient(black, transparent); }
+  @keyframes aparecer {
+    from {
+      opacity: 0.5; }
+    to {
+      opacity: 2; } }
+  .main-index .tab-content #pills-home .estilo-titulo-index-h1 {
+    color: black;
+    font: 1.6rem "Alegreya", serif;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: -65%;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
+      color: black; }
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .estilo-p-index {
+    color: black;
+    animation-name: example;
+    animation-duration: 6s;
+    font: 1rem "Roboto", sans-serif;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
+      color: black; }
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .color-info-main {
+    margin-bottom: 1rem; }
+    .main-index .tab-content #pills-home .color-info-main .border-1 .img-info {
+      width: 50%; }
+    .main-index .tab-content #pills-home .color-info-main .border-1 .img-info:hover {
       transform: scale(1.05); }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .transforma-imagen {
-      width: 100%;
-      transition: transform .75s;
-      inset: 0;
-      object-fit: cover; }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .h2compra {
-      color: black;
-      font-size: 1.2rem;
-      font-family: "Roboto", sans-serif;
-      width: 100%;
-      overflow: hidden; }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .precio {
-      color: #454545;
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem; }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .cant {
-      color: #8d8b8b;
+    .main-index .tab-content #pills-home .color-info-main .border-1 p {
       font-size: 0.7rem;
-      font-family: "Roboto", sans-serif; }
-    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod {
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma {
-        width: 10%;
-        height: 10%;
-        margin: 0;
-        padding: 0;
-        font-family: "Roboto", sans-serif;
-        border: transparent;
-        background-color: #e5e5e5;
-        border-radius: 100%;
-        transition: transform .75s;
-        -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
-        box-shadow: 8px 0 5px -7px #8d8b8b; }
-        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma:hover {
-          -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
-          box-shadow: 7px 0 5px -5px #8d8b8b;
-          transform: scale(1);
-          color: rgba(1, 79, 1, 0.826); }
-      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta {
-        width: 10%;
-        height: 10%;
-        margin: 0;
-        padding: 0;
-        font-family: "Roboto", sans-serif;
-        border: transparent;
-        background-color: #e5e5e5;
-        transition: transform .75s;
-        -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
-        box-shadow: 8px 0 5px -7px #8d8b8b;
-        border-radius: 100%; }
-        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta:hover {
-          color: rgba(79, 1, 1, 0.777);
-          transform: scale(1);
-          -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
-          box-shadow: 7px 0 5px -5px #8d8b8b; }
-      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra {
-        width: 50%;
-        margin: 0;
-        padding: 0;
-        font-size: 1.3rem;
-        border: transparent;
-        background-color: transparent;
-        transition: transform .75s; }
-        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra:hover {
-          transform: scale(1.3);
-          font-weight: bold;
-          -webkit-transform: rotate(360deg);
-          transform: rotate(360deg); }
-      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        width: 15%; }
-        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 #cantidad {
-          margin: 0;
-          align-items: center;
-          border-radius: 5px;
-          padding: 0;
-          font-size: 0.8rem;
-          font-family: "Roboto", sans-serif;
-          font-weight: bold; }
-
-.main-index .tab-content #pills-question {
-  padding: 1rem; }
-  .main-index .tab-content #pills-question .titulopregunta {
-    font: 2rem "Alegreya", serif;
+      font-weight: bold; }
+  .main-index .tab-content #pills-home .rowProd .estilo-titulo-index {
+    color: black;
+    font: 1.2rem "Alegreya", serif;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  .main-index .tab-content #pills-home #carouselExampleSlidesOnly {
+    padding: 1rem;
+    margin-bottom: 1rem; }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item:hover .collage {
+      padding: 1rem;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+      overflow: hidden; }
+  .main-index .tab-content #pills-profile #tituloproducto {
+    font: 1.5rem "Alegreya", serif;
     padding: 1rem;
     text-shadow: 2px 2px 5px #8d8b8b; }
-  .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item {
-    color: black; }
-    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header {
-      font: 1rem "Roboto", sans-serif;
-      color: black;
-      font-weight: bold; }
-      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
-        background-color: #b8b7b7bc; }
-        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:hover {
-          border-color: black;
+  .main-index .tab-content #pills-profile #productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem 2rem;
+    grid-template-areas: ". ";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+    margin-top: 20px; }
+    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto {
+      width: 35vh;
+      padding: 10px;
+      overflow: hidden;
+      position: static;
+      /*tamaño de las imagenes*/
+      /*Propiedades al H4  HTML Productos */ }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto:hover {
+        transform: scale(1.05); }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .transforma-imagen {
+        width: 100%;
+        transition: transform .75s;
+        inset: 0;
+        object-fit: cover; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .h2compra {
+        color: black;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        overflow: hidden; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .precio {
+        color: #454545;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .cant {
+        color: #8d8b8b;
+        font-size: 0.7rem;
+        font-family: "Roboto", sans-serif; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          border-radius: 100%;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma:hover {
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b;
+            transform: scale(1);
+            color: rgba(1, 79, 1, 0.826); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b;
+          border-radius: 100%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta:hover {
+            color: rgba(79, 1, 1, 0.777);
+            transform: scale(1);
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra {
+          width: 50%;
+          margin: 0;
+          padding: 0;
+          font-size: 1.1 0.2rem;
+          border: transparent;
+          background-color: transparent;
+          transition: transform .75s; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra:hover {
+            transform: scale(1.3);
+            font-weight: bold;
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 {
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 15%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 #cantidad {
+            margin: 0;
+            align-items: center;
+            border-radius: 5px;
+            padding: 0;
+            font-size: 0.8rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold; }
+  .main-index .tab-content #pills-question {
+    padding: 1rem; }
+    .main-index .tab-content #pills-question .titulopregunta {
+      font: 1.5rem "Alegreya", serif;
+      padding: 1rem;
+      text-shadow: 2px 2px 5px #8d8b8b; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item {
+      color: black; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header {
+        font: 0.8rem "Roboto", sans-serif;
+        color: black;
+        font-weight: bold; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+          background-color: #b8b7b7bc; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:hover {
+            border-color: black;
+            color: black;
+            border: none;
+            border-color: transparent;
+            outline: none;
+            text-decoration: none; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:focus {
+            outline: none !important;
+            outline-width: 0 !important;
+            box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            text-decoration: none;
+            color: black; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header:focus {
           color: black;
-          border: none;
-          border-color: transparent;
-          outline: none;
-          text-decoration: none; }
-        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:focus {
           outline: none !important;
           outline-width: 0 !important;
           box-shadow: none;
           -moz-box-shadow: none;
           -webkit-box-shadow: none;
-          text-decoration: none;
-          color: black; }
-      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header:focus {
+          text-decoration: none; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne {
+      color: black;
+      font: 0.5 "Roboto", sans-serif; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne:focus {
         color: black;
         outline: none !important;
         outline-width: 0 !important;
@@ -310,10 +477,7 @@
         -moz-box-shadow: none;
         -webkit-box-shadow: none;
         text-decoration: none; }
-  .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne {
-    color: black;
-    font: 0.5 "Roboto", sans-serif; }
-    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne:focus {
+    .main-index .tab-content #pills-question:focus {
       color: black;
       outline: none !important;
       outline-width: 0 !important;
@@ -321,178 +485,950 @@
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       text-decoration: none; }
-  .main-index .tab-content #pills-question:focus {
-    color: black;
-    outline: none !important;
-    outline-width: 0 !important;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    text-decoration: none; }
-
-.main-index .tab-content #pills-contact {
-  /* propiedades a la section de contacto*/ }
-  .main-index .tab-content #pills-contact .mainComun .sContacto {
-    font-family: "Alegreya", serif;
-    padding: 50px 150px 50px 150px;
-    /* propiedades al form de contacto*/ }
-    .main-index .tab-content #pills-contact .mainComun .sContacto #form {
-      background-color: rgba(235, 235, 235, 0.722);
-      padding: 16px;
-      border-radius: 50px;
-      /* propiedades legend H2 de contacto*/ }
-      .main-index .tab-content #pills-contact .mainComun .sContacto #form .legendH2 {
-        font-family: "Alegreya", serif;
-        padding: 30px;
-        text-align: center;
-        color: black; }
-      .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario {
-        color: black;
-        padding: 10px;
-        /* propiedades al lebel del form de contacto*/
-        /* propiedades a los input del form de contacto*/
-        /* propiedades al box de mensaje  del form de contacto*/ }
-        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .label {
-          display: inline-block;
-          font-weight: bold;
-          width: 100%;
+  .main-index .tab-content #pills-contact {
+    /* propiedades a la section de contacto*/ }
+    .main-index .tab-content #pills-contact .mainComun .sContacto {
+      font-family: "Alegreya", serif;
+      padding: 10px 10px 10px 10px;
+      /* propiedades al form de contacto*/ }
+      .main-index .tab-content #pills-contact .mainComun .sContacto #form {
+        background-color: rgba(235, 235, 235, 0.722);
+        padding: 16px;
+        border-radius: 50px;
+        /* propiedades legend H2 de contacto*/ }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .legendH2 {
+          font-family: "Alegreya", serif;
+          padding: 30px;
+          text-align: center;
+          color: black; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario {
+          color: black;
+          padding: 10px;
+          /* propiedades al lebel del form de contacto*/
+          /* propiedades a los input del form de contacto*/
+          /* propiedades al box de mensaje  del form de contacto*/ }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .label {
+            display: inline-block;
+            font-weight: bold;
+            width: 100%;
+            font-family: "Roboto", sans-serif;
+            font-size: 0.6rem; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .label .labelH3 {
+              font-size: 1rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            font-size: 0.8rem;
+            display: inline-block;
+            width: 100%;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            width: 100%;
+            height: 200px;
+            resize: none;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton {
+          text-align: center;
           font-family: "Roboto", sans-serif;
-          font-size: 1rem; }
-        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input {
-          padding: 3px 10px;
-          font-family: "Alegreya", serif;
-          font-style: italic;
+          font-size: 0.7rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton input {
+            width: 40%;
+            padding: 8px 16px;
+            margin: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color: transparent;
+            border-color: #a8a8a8; }
+  .main-index .tab-content #pills-car .containerCompra {
+    margin-top: 1rem; }
+    .main-index .tab-content #pills-car .containerCompra .table-hover {
+      background-color: rgba(219, 219, 219, 0.175);
+      border-radius: 2%;
+      padding: 10rem; }
+      .main-index .tab-content #pills-car .containerCompra .table-hover thead {
+        color: black;
+        font-family: "Alegreya", serif;
+        font-size: 1rem;
+        font-weight: bold; }
+    .main-index .tab-content #pills-car .containerCompra .tbody {
+      font-size: 0.8rem; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito {
+        color: black;
+        font-family: "Roboto", sans-serif; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto {
+          display: flex; }
+          .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto img {
+            width: 2rem;
+            object-fit: contain;
+            border-radius: 100%;
+            margin-right: 20px; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .title {
+          font-size: 0.8rem; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tablePrice {
+          font-size: 0.7rem; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input {
+          width: 40px;
+          border: none;
           font-size: 0.8rem;
-          display: inline-block;
-          width: 100%;
+          box-shadow: 1px 1px 1px 0px #8d8b8b;
           background-color: transparent;
-          border-color: transparent transparent #868686 transparent; }
-          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input:hover {
-            background-color: #cacaca;
-            border-color: transparent transparent #868686 transparent; }
-        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea {
-          padding: 3px 10px;
-          font-family: "Alegreya", serif;
-          font-style: italic;
-          width: 100%;
-          height: 200px;
-          resize: none;
-          background-color: transparent;
-          border-color: transparent transparent #868686 transparent; }
-          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea:hover {
-            background-color: #cacaca;
-            border-color: transparent transparent #868686 transparent; }
-      .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton {
+          outline: 0;
+          margin-right: 30px;
+          margin-bottom: 20px;
+          text-align: center;
+          display: flex; }
+          .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input input {
+            width: 20%; }
+          .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input .delete {
+            width: 20%; }
+  .main-index .tab-content #pills-car .containerCompraBtn {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+    .main-index .tab-content #pills-car .containerCompraBtn .row .col .itemCartTotal {
+      font-size: 1rem; }
+  .main-index .tab-content #pills-car #containerCompraForm .sDataPago {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row {
+      width: 100%;
+      display: block; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row div {
+        width: 100%;
+        margin: 2px; }
+        .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row div input {
+          width: 100%; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset {
+      justify-content: right; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset legend {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        width: 50%; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset div .form-check {
+        color: black;
+        width: 10%;
+        font-size: 0.8rem; }
+  .modal-container-contacto {
+    background-color: rgba(0, 0, 0, 0.236);
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out; }
+    .modal-container-contacto #modal {
+      width: 550px;
+      height: 200px;
+      background-color: white;
+      box-shadow: 5px 5px 15px 5px black;
+      padding: 20px;
+      z-index: 1000;
+      margin-top: 20px;
+      border-radius: 20px;
+      justify-content: center; }
+      .modal-container-contacto #modal h2 {
         text-align: center;
         font-family: "Roboto", sans-serif;
-        font-size: 1rem; }
-        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton input {
-          width: 30%;
-          padding: 8px 16px;
-          margin: 20px;
-          border-radius: 10px;
-          font-weight: bold;
-          background-color: transparent;
-          border-color: #a8a8a8; }
+        color: black; }
+      .modal-container-contacto #modal #modal-close {
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 40%;
+        width: 20%; }
+        .modal-container-contacto #modal #modal-close:hover {
+          transform: scale(1.05); }
+  .modal-container-active {
+    opacity: 1;
+    visibility: visible; }
+  .hide,
+  .remove {
+    display: none; } }
 
-.main-index .tab-content #pills-car .containerCompra {
-  margin-top: 2rem; }
-  .main-index .tab-content #pills-car .containerCompra .table-hover {
-    background-color: rgba(219, 219, 219, 0.175);
-    border-radius: 2%;
-    padding: 10rem; }
-    .main-index .tab-content #pills-car .containerCompra .table-hover thead {
-      color: black;
-      font-family: "Alegreya", serif;
-      font-size: 1.5rem;
-      font-weight: bold; }
-  .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito {
+@media screen and (min-width: 768px) {
+  .main-index .tab-content #pills-home .div-image {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 700px 0px;
+    object-fit: none;
+    z-index: -1;
+    background-image: url("../img/utilities/fondo.png");
+    -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
+    mask-image: linear-gradient(black, transparent); }
+  @keyframes aparecer {
+    from {
+      opacity: 0.5; }
+    to {
+      opacity: 2; } }
+  .main-index .tab-content #pills-home .estilo-titulo-index-h1 {
     color: black;
-    font-family: "Roboto", sans-serif; }
-    .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto {
-      display: flex;
-      font-size: 1rem; }
-      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto img {
-        width: 4rem;
-        object-fit: contain;
-        border-radius: 100%;
-        margin-right: 20px; }
-    .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tablePrice {
-      font-size: 0.8rem; }
-    .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input {
-      width: 40px;
-      border: none;
-      font-size: 1rem;
-      box-shadow: 1px 1px 1px 0px #8d8b8b;
-      background-color: transparent;
-      outline: 0;
-      margin-right: 30px;
-      margin-bottom: 20px;
-      text-align: center; }
-
-.main-index .tab-content #pills-car .containerCompraBtn {
-  background-color: rgba(219, 219, 219, 0.175);
-  padding: 1rem; }
-
-.main-index .tab-content #pills-car #containerCompraForm .sDataPago {
-  background-color: rgba(219, 219, 219, 0.175);
-  padding: 1rem; }
-  .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row {
-    justify-content: space-around; }
-    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row div {
-      width: 33%; }
-  .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset {
-    justify-content: right; }
-    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset legend {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
-      width: 20%; }
-    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset div .form-check {
-      color: black;
-      width: 50%; }
-
-.modal-container-contacto {
-  background-color: rgba(0, 0, 0, 0.236);
-  width: 100%;
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .3s ease-in-out; }
-  .modal-container-contacto #modal {
-    width: 550px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 5px 5px 15px 5px black;
-    padding: 20px;
-    z-index: 1000;
-    margin-top: 20px;
-    border-radius: 20px;
-    justify-content: center; }
-    .modal-container-contacto #modal h2 {
-      text-align: center;
-      font-family: "Roboto", sans-serif;
+    font: 3rem "Alegreya", serif;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: -40rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
       color: black; }
-    .modal-container-contacto #modal #modal-close {
-      justify-content: center;
-      text-align: center;
-      margin-top: 1rem;
-      margin-left: 40%;
-      width: 20%; }
-      .modal-container-contacto #modal #modal-close:hover {
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .estilo-p-index {
+    color: black;
+    animation-name: example;
+    animation-duration: 6s;
+    font: 2rem "Roboto", sans-serif;
+    margin-bottom: 9rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
+      color: black; }
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .color-info-main {
+    margin-bottom: 10rem; }
+    .main-index .tab-content #pills-home .color-info-main .border-1 .img-info:hover {
+      transform: scale(1.05); }
+  .main-index .tab-content #pills-home .rowProd .estilo-titulo-index {
+    color: black;
+    font: 2rem "Alegreya", serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  .main-index .tab-content #pills-home #carouselExampleSlidesOnly {
+    padding: 1rem;
+    margin-bottom: 2rem; }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item:hover .collage {
+      padding: 1rem;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+      overflow: hidden; }
+  .main-index .tab-content #pills-profile #tituloproducto {
+    font: 2rem "Alegreya", serif;
+    padding: 1rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  .main-index .tab-content #pills-profile #productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem 2rem;
+    grid-template-areas: ". . . " ". . . " ". . . ";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+    margin-top: 20px; }
+    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto {
+      width: 35vh;
+      padding: 10px;
+      overflow: hidden;
+      position: static;
+      /*tamaño de las imagenes*/
+      /*Propiedades al H4  HTML Productos */ }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto:hover {
         transform: scale(1.05); }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .transforma-imagen {
+        width: 100%;
+        transition: transform .75s;
+        inset: 0;
+        object-fit: cover; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .h2compra {
+        color: black;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        overflow: hidden; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .precio {
+        color: #454545;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .cant {
+        color: #8d8b8b;
+        font-size: 0.7rem;
+        font-family: "Roboto", sans-serif; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          border-radius: 100%;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma:hover {
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b;
+            transform: scale(1);
+            color: rgba(1, 79, 1, 0.826); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b;
+          border-radius: 100%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta:hover {
+            color: rgba(79, 1, 1, 0.777);
+            transform: scale(1);
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra {
+          width: 50%;
+          margin: 0;
+          padding: 0;
+          font-size: 1.3rem;
+          border: transparent;
+          background-color: transparent;
+          transition: transform .75s; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra:hover {
+            transform: scale(1.3);
+            font-weight: bold;
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 {
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 15%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 #cantidad {
+            margin: 0;
+            align-items: center;
+            border-radius: 5px;
+            padding: 0;
+            font-size: 0.8rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold; }
+  .main-index .tab-content #pills-question {
+    padding: 1rem; }
+    .main-index .tab-content #pills-question .titulopregunta {
+      font: 2rem "Alegreya", serif;
+      padding: 1rem;
+      text-shadow: 2px 2px 5px #8d8b8b; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item {
+      color: black; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header {
+        font: 1rem "Roboto", sans-serif;
+        color: black;
+        font-weight: bold; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+          background-color: #b8b7b7bc; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:hover {
+            border-color: black;
+            color: black;
+            border: none;
+            border-color: transparent;
+            outline: none;
+            text-decoration: none; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:focus {
+            outline: none !important;
+            outline-width: 0 !important;
+            box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            text-decoration: none;
+            color: black; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header:focus {
+          color: black;
+          outline: none !important;
+          outline-width: 0 !important;
+          box-shadow: none;
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          text-decoration: none; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne {
+      color: black;
+      font: 0.5 "Roboto", sans-serif; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne:focus {
+        color: black;
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        text-decoration: none; }
+    .main-index .tab-content #pills-question:focus {
+      color: black;
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      text-decoration: none; }
+  .main-index .tab-content #pills-contact {
+    /* propiedades a la section de contacto*/ }
+    .main-index .tab-content #pills-contact .mainComun .sContacto {
+      font-family: "Alegreya", serif;
+      padding: 50px 150px 50px 150px;
+      /* propiedades al form de contacto*/ }
+      .main-index .tab-content #pills-contact .mainComun .sContacto #form {
+        background-color: rgba(235, 235, 235, 0.722);
+        padding: 16px;
+        border-radius: 50px;
+        /* propiedades legend H2 de contacto*/ }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .legendH2 {
+          font-family: "Alegreya", serif;
+          padding: 30px;
+          text-align: center;
+          color: black; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario {
+          color: black;
+          padding: 10px;
+          /* propiedades al lebel del form de contacto*/
+          /* propiedades a los input del form de contacto*/
+          /* propiedades al box de mensaje  del form de contacto*/ }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .label {
+            display: inline-block;
+            font-weight: bold;
+            width: 100%;
+            font-family: "Roboto", sans-serif;
+            font-size: 1rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            font-size: 0.8rem;
+            display: inline-block;
+            width: 100%;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            width: 100%;
+            height: 200px;
+            resize: none;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton {
+          text-align: center;
+          font-family: "Roboto", sans-serif;
+          font-size: 1rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton input {
+            width: 30%;
+            padding: 8px 16px;
+            margin: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color: transparent;
+            border-color: #a8a8a8; }
+  .main-index .tab-content #pills-car .containerCompra {
+    margin-top: 2rem; }
+    .main-index .tab-content #pills-car .containerCompra .table-hover {
+      background-color: rgba(219, 219, 219, 0.175);
+      border-radius: 2%;
+      padding: 10rem; }
+      .main-index .tab-content #pills-car .containerCompra .table-hover thead {
+        color: black;
+        font-family: "Alegreya", serif;
+        font-size: 1.5rem;
+        font-weight: bold; }
+    .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito {
+      color: black;
+      font-family: "Roboto", sans-serif; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto {
+        display: flex;
+        font-size: 1rem; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto img {
+          width: 4rem;
+          object-fit: contain;
+          border-radius: 100%;
+          margin-right: 20px; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tablePrice {
+        font-size: 0.8rem; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input {
+        width: 40px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 1px 1px 1px 0px #8d8b8b;
+        background-color: transparent;
+        outline: 0;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center; }
+  .main-index .tab-content #pills-car .containerCompraBtn {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+  .main-index .tab-content #pills-car #containerCompraForm .sDataPago {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row {
+      justify-content: space-around; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row div {
+        width: 33%; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset {
+      justify-content: right; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset legend {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        width: 20%; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset div .form-check {
+        color: black;
+        width: 50%; }
+  .modal-container-contacto {
+    background-color: rgba(0, 0, 0, 0.236);
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out; }
+    .modal-container-contacto #modal {
+      width: 550px;
+      height: 200px;
+      background-color: white;
+      box-shadow: 5px 5px 15px 5px black;
+      padding: 20px;
+      z-index: 1000;
+      margin-top: 20px;
+      border-radius: 20px;
+      justify-content: center; }
+      .modal-container-contacto #modal h2 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: black; }
+      .modal-container-contacto #modal #modal-close {
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 40%;
+        width: 20%; }
+        .modal-container-contacto #modal #modal-close:hover {
+          transform: scale(1.05); }
+  .modal-container-active {
+    opacity: 1;
+    visibility: visible; }
+  .hide,
+  .remove {
+    display: none; } }
 
-.modal-container-active {
-  opacity: 1;
-  visibility: visible; }
-
-.hide,
-.remove {
-  display: none; }
+@media screen and (min-width: 1024px) {
+  .main-index .tab-content #pills-home .div-image {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 700px 0px;
+    object-fit: none;
+    z-index: -1;
+    background-image: url("../img/utilities/fondo.png");
+    -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
+    mask-image: linear-gradient(black, transparent); }
+  @keyframes aparecer {
+    from {
+      opacity: 0.5; }
+    to {
+      opacity: 2; } }
+  .main-index .tab-content #pills-home .estilo-titulo-index-h1 {
+    color: black;
+    font: 3rem "Alegreya", serif;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: -40rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
+      color: black; }
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .estilo-p-index {
+    color: black;
+    animation-name: example;
+    animation-duration: 6s;
+    font: 2rem "Roboto", sans-serif;
+    margin-bottom: 9rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  @keyframes example {
+    from {
+      color: black; }
+    to {
+      color: #8d8b8b; } }
+  .main-index .tab-content #pills-home .color-info-main {
+    margin-bottom: 10rem; }
+    .main-index .tab-content #pills-home .color-info-main .border-1 .img-info:hover {
+      transform: scale(1.05); }
+  .main-index .tab-content #pills-home .rowProd .estilo-titulo-index {
+    color: black;
+    font: 2rem "Alegreya", serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  .main-index .tab-content #pills-home #carouselExampleSlidesOnly {
+    padding: 1rem;
+    margin-bottom: 2rem; }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item:hover .collage {
+      padding: 1rem;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
+    .main-index .tab-content #pills-home #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+      overflow: hidden; }
+  .main-index .tab-content #pills-profile #tituloproducto {
+    font: 2rem "Alegreya", serif;
+    padding: 1rem;
+    text-shadow: 2px 2px 5px #8d8b8b; }
+  .main-index .tab-content #pills-profile #productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem 2rem;
+    grid-template-areas: ". . . " ". . . " ". . . ";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+    margin-top: 20px; }
+    .main-index .tab-content #pills-profile #productos .estilo-imagen-producto {
+      width: 35vh;
+      padding: 10px;
+      overflow: hidden;
+      position: static;
+      /*tamaño de las imagenes*/
+      /*Propiedades al H4  HTML Productos */ }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto:hover {
+        transform: scale(1.05); }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .transforma-imagen {
+        width: 100%;
+        transition: transform .75s;
+        inset: 0;
+        object-fit: cover; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .h2compra {
+        color: black;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        overflow: hidden; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .precio {
+        color: #454545;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-boton-compra .cant {
+        color: #8d8b8b;
+        font-size: 0.7rem;
+        font-family: "Roboto", sans-serif; }
+      .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          border-radius: 100%;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .suma:hover {
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b;
+            transform: scale(1);
+            color: rgba(1, 79, 1, 0.826); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta {
+          width: 10%;
+          height: 10%;
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          border: transparent;
+          background-color: #e5e5e5;
+          transition: transform .75s;
+          -webkit-box-shadow: 8px 0 5px -7px #8d8b8b;
+          box-shadow: 8px 0 5px -7px #8d8b8b;
+          border-radius: 100%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .resta:hover {
+            color: rgba(79, 1, 1, 0.777);
+            transform: scale(1);
+            -webkit-box-shadow: 7px 0 5px -5px #8d8b8b;
+            box-shadow: 7px 0 5px -5px #8d8b8b; }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra {
+          width: 50%;
+          margin: 0;
+          padding: 0;
+          font-size: 1.3rem;
+          border: transparent;
+          background-color: transparent;
+          transition: transform .75s; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod #boton-compra:hover {
+            transform: scale(1.3);
+            font-weight: bold;
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+        .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 {
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 15%; }
+          .main-index .tab-content #pills-profile #productos .estilo-imagen-producto .div-agregar-prod .cant1 #cantidad {
+            margin: 0;
+            align-items: center;
+            border-radius: 5px;
+            padding: 0;
+            font-size: 0.8rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold; }
+  .main-index .tab-content #pills-question {
+    padding: 1rem; }
+    .main-index .tab-content #pills-question .titulopregunta {
+      font: 2rem "Alegreya", serif;
+      padding: 1rem;
+      text-shadow: 2px 2px 5px #8d8b8b; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item {
+      color: black; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header {
+        font: 1rem "Roboto", sans-serif;
+        color: black;
+        font-weight: bold; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+          background-color: #b8b7b7bc; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:hover {
+            border-color: black;
+            color: black;
+            border: none;
+            border-color: transparent;
+            outline: none;
+            text-decoration: none; }
+          .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:focus {
+            outline: none !important;
+            outline-width: 0 !important;
+            box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            text-decoration: none;
+            color: black; }
+        .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample .accordion-item .accordion-header:focus {
+          color: black;
+          outline: none !important;
+          outline-width: 0 !important;
+          box-shadow: none;
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          text-decoration: none; }
+    .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne {
+      color: black;
+      font: 0.5 "Roboto", sans-serif; }
+      .main-index .tab-content #pills-question .containerPreg #accordionPanelsStayOpenExample #panelsStayOpen-collapseOne:focus {
+        color: black;
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        text-decoration: none; }
+    .main-index .tab-content #pills-question:focus {
+      color: black;
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      text-decoration: none; }
+  .main-index .tab-content #pills-contact {
+    /* propiedades a la section de contacto*/ }
+    .main-index .tab-content #pills-contact .mainComun .sContacto {
+      font-family: "Alegreya", serif;
+      padding: 50px 150px 50px 150px;
+      /* propiedades al form de contacto*/ }
+      .main-index .tab-content #pills-contact .mainComun .sContacto #form {
+        background-color: rgba(235, 235, 235, 0.722);
+        padding: 16px;
+        border-radius: 50px;
+        /* propiedades legend H2 de contacto*/ }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .legendH2 {
+          font-family: "Alegreya", serif;
+          padding: 30px;
+          text-align: center;
+          color: black; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario {
+          color: black;
+          padding: 10px;
+          /* propiedades al lebel del form de contacto*/
+          /* propiedades a los input del form de contacto*/
+          /* propiedades al box de mensaje  del form de contacto*/ }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .label {
+            display: inline-block;
+            font-weight: bold;
+            width: 100%;
+            font-family: "Roboto", sans-serif;
+            font-size: 1rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            font-size: 0.8rem;
+            display: inline-block;
+            width: 100%;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .input:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea {
+            padding: 3px 10px;
+            font-family: "Alegreya", serif;
+            font-style: italic;
+            width: 100%;
+            height: 200px;
+            resize: none;
+            background-color: transparent;
+            border-color: transparent transparent #868686 transparent; }
+            .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormulario .textarea:hover {
+              background-color: #cacaca;
+              border-color: transparent transparent #868686 transparent; }
+        .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton {
+          text-align: center;
+          font-family: "Roboto", sans-serif;
+          font-size: 1rem; }
+          .main-index .tab-content #pills-contact .mainComun .sContacto #form .divFormularioBoton input {
+            width: 30%;
+            padding: 8px 16px;
+            margin: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color: transparent;
+            border-color: #a8a8a8; }
+  .main-index .tab-content #pills-car .containerCompra {
+    margin-top: 2rem; }
+    .main-index .tab-content #pills-car .containerCompra .table-hover {
+      background-color: rgba(219, 219, 219, 0.175);
+      border-radius: 2%;
+      padding: 10rem; }
+      .main-index .tab-content #pills-car .containerCompra .table-hover thead {
+        color: black;
+        font-family: "Alegreya", serif;
+        font-size: 1.5rem;
+        font-weight: bold; }
+    .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito {
+      color: black;
+      font-family: "Roboto", sans-serif; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto {
+        display: flex;
+        font-size: 1rem; }
+        .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableProducto img {
+          width: 4rem;
+          object-fit: contain;
+          border-radius: 100%;
+          margin-right: 20px; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tablePrice {
+        font-size: 0.8rem; }
+      .main-index .tab-content #pills-car .containerCompra .tbody .ItemCarrito .tableCantidad input {
+        width: 40px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 1px 1px 1px 0px #8d8b8b;
+        background-color: transparent;
+        outline: 0;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center; }
+  .main-index .tab-content #pills-car .containerCompraBtn {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+  .main-index .tab-content #pills-car #containerCompraForm .sDataPago {
+    background-color: rgba(219, 219, 219, 0.175);
+    padding: 1rem; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row {
+      justify-content: space-around; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP .row div {
+        width: 33%; }
+    .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset {
+      justify-content: right; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset legend {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        width: 20%; }
+      .main-index .tab-content #pills-car #containerCompraForm .sDataPago #formP fieldset div .form-check {
+        color: black;
+        width: 50%; }
+  .modal-container-contacto {
+    background-color: rgba(0, 0, 0, 0.236);
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out; }
+    .modal-container-contacto #modal {
+      width: 550px;
+      height: 200px;
+      background-color: white;
+      box-shadow: 5px 5px 15px 5px black;
+      padding: 20px;
+      z-index: 1000;
+      margin-top: 20px;
+      border-radius: 20px;
+      justify-content: center; }
+      .modal-container-contacto #modal h2 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: black; }
+      .modal-container-contacto #modal #modal-close {
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 40%;
+        width: 20%; }
+        .modal-container-contacto #modal #modal-close:hover {
+          transform: scale(1.05); }
+  .modal-container-active {
+    opacity: 1;
+    visibility: visible; }
+  .hide,
+  .remove {
+    display: none; } }
 
 /* RESET */
 * {
