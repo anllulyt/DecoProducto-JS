@@ -108,6 +108,11 @@ function removeItemCarrito(e) {
 
   tr.remove()
   carritoTotal()
+
+  if (carrito.length === 0) {
+    pago.classList.add("hide")
+  }
+
 }
 
 // ir sumando cantidad desde el carrito
@@ -123,6 +128,7 @@ function sumaCantidad(e) {
       carritoTotal()
     }
   })
+
 }
 
 // local storage

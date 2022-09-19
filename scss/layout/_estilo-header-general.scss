@@ -3,38 +3,63 @@
 
 // propiedades del header  
 .menu-header {
-  background-color: #ffffff;
+  background-color: $colorsubbase1;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 0 5px 0 #000000;
+  box-shadow: 0 0 5px 0 $colorbase;
 
   .navbar-div-row {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: $colorsubbase1;
 
     .navbar {
       padding: 0;
       margin: 0;
-      background-color: white;
+      background-color: $colorsubbase1;
 
       .navfluid {
         #navbarSupportedContent {
           .ulnav {
             .nav-item {
               padding: 5px;
-              text-decoration: none;  
+              text-decoration: none;
               text-align: center;
               background-position-x: top;
+
               .nav-link {
-                background-color: white;
-                color: black;
+                background-color: $colorsubbase1;
+                color: $colorbase;
+
+                .span-item {
+                  border-radius: 50%;
+                  padding: 0.8rem;
+                  font: 1rem $fuentesecundario;
+
+                  .spanCompra {
+                    border-radius: 50%;
+                    background-color: $colorsubbase1;
+                    color: $colorbase;
+                    font: 0.8rem $fuentesecundario;
+                    -webkit-box-shadow: 7px 0 5px -3px $colorsubbase2;
+                            box-shadow: 7px 0 5px -3px $colorsubbase2;
+                    font-weight: bolder;
+
+                    &:hover {
+                      background-color: $colorsubbase1;
+                      color: $colorbase;
+                      box-shadow: 7px 0 5px -3px $colorsubbase2;
+                    }
+                  }
+
+                  &:hover {
+                    -webkit-box-shadow: -7px 0 5px -3px $colorsubbase2;
+                    box-shadow: -7px 0 5px -3px $colorsubbase2;
+                  }
+
+                }
               }
-            }
-            .nav-link:hover {
-              background-position-x: center;
-              background-size: 100% 100%;
             }
           }
         }
