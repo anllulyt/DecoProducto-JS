@@ -1,6 +1,6 @@
 @import "utilities/variable.scss";
 @import "utilities/procesadores.scss";
-@media  screen and (min-width: 1024px){
+@media  screen and (max-width: 2000px){
 // propiedades del footer
 .footer-general {
   margin-top: 20px;
@@ -65,7 +65,7 @@
   }
 }
 
-@media  screen and (min-width: 768px){
+@media  screen and (max-width: 768px){
   // propiedades del footer
   .footer-general {
     margin-top: 20px;
@@ -130,7 +130,7 @@
     }
   }
 
-@media screen and (min-width: 320px) {
+  @media screen and (max-width: 600px) {
   // propiedades del footer
   .footer-general {
     margin-top: 20px;

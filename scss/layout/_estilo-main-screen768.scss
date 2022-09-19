@@ -1,7 +1,7 @@
 @import "utilities/variable.scss";
 @import "utilities/procesadores.scss";
 
-@media  screen and (min-width: 768px){
+@media  screen and (max-width: 768px){
 .main-index {
     .tab-content {
         #pills-home {
